@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background: white;
+    width: 90%;
+    max-width: 420px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #5a2d82;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #e0e7ff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#options button:hover {
+    background: #c7d2fe;
+}
+
+#options button.selected {
+    background: #34d399;
+    color: white;
+}
+
+#nextBtn {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #6366f1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#nextBtn:hover {
+    background: #4f46e5;
+}
+
+.hide {
+    display: none;
+}
+
+#startScreen p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#startScreen button,
+#resultScreen button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #10b981;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startScreen button:hover,
+#resultScreen button:hover {
+    background: #059669;
+}
+
+#scoreText {
+    font-size: 22px;
+    color: #2563eb;
+}
